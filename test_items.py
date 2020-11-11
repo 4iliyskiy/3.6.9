@@ -4,7 +4,7 @@ import time
 import math
 from selenium.common.exceptions import NoSuchElementException
 
-def test_guest_can_go_to_login_page(browser):
+def test_find__card_button(browser):
 
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
